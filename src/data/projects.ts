@@ -1,0 +1,65 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'PSG Match Day',
+    client: 'Paris Saint-Germain',
+    category: 'photo',
+    tags: ['action', 'stade', 'éditorial'],
+    thumbnail: '/paris.jpg',
+    description: 'Photographie de match capturant l\'intensité et l\'émotion des matchs à domicile du PSG au Parc des Princes.',
+    year: 2025,
+  },
+  {
+    id: '2',
+    title: 'Match Maroc vs Tanzania',
+    client: 'Maroc',
+    category: 'photo',
+    tags: ['match', 'maroc', 'tanzanie'],
+    thumbnail: '/maroc.png',
+    description: 'Match marocain contre la Tanzanie .',  
+    year: 2025,
+  },
+  {
+    id: '3',
+    title: 'Marché traditionnel berbère',
+    client: 'Projet personnel',
+    category: 'photo',
+    tags: ['artisanat', 'vêtements', 'culture', 'berbère'],
+    thumbnail: '/rue3.jpg',
+    description: 'Scène de marché colorée dans un village berbère, présentant des vêtements traditionnels, babouches, et artisanat local suspendus sur la devanture d’une échoppe en bois.',
+    year: 2024,
+  },
+  {
+    id: '4',
+    title: 'Descente vers le souk',
+    client: 'Projet personnel',
+    category: 'photo',
+    tags: ['architecture', 'village', 'escalier', 'rural'],
+    thumbnail: '/rue.jpg',
+    description: 'Vue en hauteur d’un groupe d’hommes en habits traditionnels descendant un escalier en pierre vers une ruelle du village, entouré de bois et d’architecture rustique.',
+    year: 2024,
+  },
+  {
+    id: '5',
+    title: 'Pause au café du village',
+    client: 'Projet personnel',
+    category: 'photo',
+    tags: ['social', 'quotidien', 'café', 'rencontre'],
+    thumbnail: '/rue1.jpg',
+    description: 'Hommes en tenues traditionnelles partageant un moment de détente autour d’un café en plein air, sous les drapeaux africains et marocains.',
+    year: 2024,
+  },
+  {
+    id: '6',
+    title: 'Musique et cascades à Ouzoud',
+    client: 'Projet personnel',
+    category: 'photo',
+    tags: ['musique', 'eau', 'tradition', 'montagne'],
+    thumbnail: '/rue4.jpg',
+    description: 'Musiciens berbères en vêtements bleus interprétant des airs traditionnels au pied des célèbres cascades d’Ouzoud, dans un cadre naturel majestueux.',
+    year: 2024,
+  }
+  
+];
